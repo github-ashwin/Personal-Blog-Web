@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <nav>
+    <h2><a href="#home">Personal Blog</a></h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#blog">Blog</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Featured Blog Section -->
+  <div id="home">
+    <div class="card">
+      <img src="featuredblog.jpg" alt="Featured Blog">
+      <div class="card-content">
+        <h3>Featured Blog Title</h3>
+        <p>
+          This is a short preview of the featured blog post. It gives the reader an idea 
+          of what the post is about before clicking to read more.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog Section with Sidebar -->
+  <div id="blog-section">
+    <!-- Main Blog Cards -->
+    <div class="main-blog">
+      <h2>Latest Blogs</h2>
+      <div class="blog-cards">
+        <div class="blog-card">
+          <img src="blog1.jpg" alt="Blog 1">
+          <div class="blog-content">
+            <h3>Blog Post 1</h3>
+            <p>Short description of blog post 1.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="blog2.jpg" alt="Blog 2">
+          <div class="blog-content">
+            <h3>Blog Post 2</h3>
+            <p>Short description of blog post 2.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="blog3.jpg" alt="Blog 3">
+          <div class="blog-content">
+            <h3>Blog Post 3</h3>
+            <p>Short description of blog post 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="categories">
+      <h3>Categories</h3>
+      <ul>
+        <a href=""><li>Programming</li></a>
+        <a href=""><li>Web Development</li></a>
+        <a href=""><li>Data Science</li></a>
+        <a href=""><li>AI/ML</li></a>
+      </ul>
+
+      <h3>Recent Posts</h3>
+      <ul>
+        <a href=""><li>Featured Blog</li></a>
+        <a href=""><li>Blog Post 1</li></a>
+        <a href=""><li>Blog Post 2</li></a>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <h2>Contact</h2>
+    <p>Email: studentblog@example.com</p>
+    <p>Phone: +91 12345 67890</p>
+    <form>
+      <input type="text" placeholder="Your Name"><br>
+      <input type="email" placeholder="Your Email"><br>
+      <textarea placeholder="Your Message"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow me on: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a> | 
+      <a href="#">Instagram</a>
+    </p>
+    <p>&copy; 2025 Personal Blog</p>
+  </footer>
+
+</body>
+</html>
